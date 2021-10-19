@@ -1,0 +1,21 @@
+### Register new user
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username": "coolzero",
+    "password": "swordfish"
+}
+
+### Login (Get token)
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "coolzero",
+    "password": "swordfish"
+}
+
+### Get secure message with token
+GET http://localhost:8080/secure
+Authorization: Bearer aaaa.bbbb.cccc
