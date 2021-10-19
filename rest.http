@@ -1,0 +1,6 @@
+### Get token
+GET http://localhost:8000/token
+
+### Get secure message
+GET http://localhost:8000/secure
+Authorization: Bearer aaaa.bbbb.cccc
